@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sportify-Cat1</title>
+    <link rel="icon" href="sportify_mele-removebg-preview.png" type="image/png" sizes="16x16 32x32">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href='https://fonts.googleapis.com/css?family=Russo One' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+
+    <style>
+      body {
+        margin-top: 0;
+        background: #FFEEEE;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #DDEFBB, #FFEEEE);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #DDEFBB, #FFEEEE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ }
+
+      header {
+        text-align: center;
+        background-color: rgb(70, 238, 235);
+        margin: 0 -16px;
+        padding: 16px 32px;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+        padding-bottom: 0px;
+      }
+
+      #home {
+        position: relative;
+        bottom: 90px;
+        color: black;
+      }
+
+      #cart {
+        position: relative;
+        padding-left: 90%;
+        bottom: 90px;
+      }
+
+      #user {
+        position: relative;
+        padding-left: 10px;
+        bottom: 90px;
+      }
+
+      .categories {
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 100px;
+      }
+
+      .a 
+      {
+        height: 150px;
+        width: 150px;
+        border:2px solid black;
+        background-size: contain;
+      }
+
+      
+      @keyframes example 
+      {
+        0%{transform:scale(1,1)}
+        100%{transform:scale(1.3,1.3)}
+
+      }
+      .a:hover
+      {
+        animation:example 0.75s ease-in-out ;
+        animation-fill-mode: forwards;
+      }
+      header
+      {
+        background: #11998e;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        height:150px;
+      }
+ div.title>h1{
+  text-shadow: 8px 4px 5px white;
+  font-family: 'Russo One';
+font-size:45px;
+display:inline;
+position:relative;
+bottom: 45px;
+ }
+ #cat{font-family: 'Russo One';
+ margin-bottom: 30px;
+
+}
+.nameTag{
+  text-align: center;
+  color:black;
+  position:relative;
+  bottom:12px;
+  font-size: 20px;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  
+  
+}
+ 
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Kenia&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="root">
+      <header>
+        <div class="head" >
+        <div class="title">
+          <img src="sportify_gr-removebg-preview.png" width="120px" height="120px">
+          <h1>SPORTIFY</h1>
+        </div>
+          <a href="./index.html"><i id="home" class="fa-solid fa-house fa-2x"></i></a>
+          <i id="cart" class="fa-solid fa-cart-shopping fa-2x"></i>
+          <i id="user" class="fa-solid fa-user fa-2x"></i>
+        </div>
+      </header>
+
+      <div>
+        <h1 id="cat">CATEGORIES:</h1>
+        <div>
+          <div class="categories">
+            <div class="a">
+              <img src="fball.jpg" height="150px" width="150px">
+           <p class="nameTag">Football</p>
+          </div>
+            <div class="a"></div>
+            <div class="a"></div>
+          </div>
+
+          <div class="categories">
+            <div class="a"></div>
+            <div class="a"></div>
+            <div class="a"></div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

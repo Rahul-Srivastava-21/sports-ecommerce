@@ -1,0 +1,109 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+.card{
+    display: flex;
+    margin-top: 22px;
+}
+/* .left img{
+    width: 470px;
+    position: relative;
+    top: 25px; 
+    margin-inline:32px ;
+    display:inline-block;
+} */
+.card .img img{
+    width: 74px;
+    margin-left: 22px;
+    cursor: pointer;
+}
+ 
+.card .right {
+    margin-top: 11px;
+}
+.right h3{
+    margin-top: 11px;
+    color: gray;
+}
+.right h1{
+    margin-top: 11px;
+}
+.right i{
+    margin-top: 11px;
+    color: green;
+}
+.right h4{
+    margin-top: 11px;
+}
+.right p{
+    margin-top: 11px;
+}
+.right button{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(255, 106, 0);
+    color: white;
+    font-size: 25px;
+    border: none;
+    margin-top: 22px;
+    margin-inline: 22px;
+    font-weight: 600;
+    margin-left: 1px;
+}
+.right button:hover{
+    background-color: rgb(255, 136, 0);
+    cursor: pointer;
+}
+body {
+    margin-top: 0;
+    background: #FFEEEE;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DDEFBB, #FFEEEE);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DDEFBB, #FFEEEE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   }
+
+  header {
+    background: #11998e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height:150px;
+    text-align: center;
+    background-color: rgb(70, 238, 235);
+    margin: 0 -16px;
+    padding: 16px 32px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    padding-bottom: 0px;
+  }
+
+  #home {
+    position: relative;
+    bottom: 90px;
+    color: black;
+  }
+
+  #cart {
+    position: relative;
+    padding-left: 90%;
+    bottom: 90px;
+  }
+
+  #user {
+    position: relative;
+    padding-left: 10px;
+    bottom: 90px;
+  }
+  div.title>h1
+ {
+  text-shadow: 8px 4px 5px white;
+  font-family: 'Russo One';
+  font-size:45px;
+  display:inline;
+  position:relative;
+  bottom: 45px;
+ }
+ .right img{
+    float: left;
+    width: 500px;
+    margin: 20px;
+ }
